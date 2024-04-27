@@ -11,5 +11,13 @@ if (true){
 
 // Nexted Scope
 
-
-
+function one(){
+    const username = " Manimohan"
+    function tow(){
+        const website = " Youtube"
+        console.log(username);
+    }
+    //console.log(website);
+    tow()
+}
+one()
