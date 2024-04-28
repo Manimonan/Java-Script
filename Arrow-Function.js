@@ -56,5 +56,18 @@ const addTow = (num1,num2)=> num1 + num2
   // syntax ____. ( function ) ()
 
   (function iife() {
+    // named iife
      console.log( 'DB CONNECTED');
   }) ( );
+
+  (
+    (name)=>{ 
+        console.log(` My name is : ${ name}`);
+    }
+  )(` Manimohan`);
+
+  ( 
+    ( num1, num2)=>{
+        console.log( ` Some of tow number is : ${ num1 + num2}`);
+    }
+  )(4,7)
