@@ -103,18 +103,25 @@
 // Truethy value : "0" , ' false', "  ", [], {}, function(){}
 // folsy value - when we assume a condition is completly false 
 //false, 0 , -0 , Bigint 0n , undifined, null, NaN, ""
- const userEmail = ""
- if (userEmail){
-   console.log( `This is a user email`);
- }else{
-   console.log( `Put a valide email address`);
- }
+//  const userEmail = ""
+//  if (userEmail){
+//    console.log( `This is a user email`);
+//  }else{
+//    console.log( `Put a valide email address`);
+//  }
     
  // nullish coalescing oparators (??) use for null and undifined
 
- let val1 ;
+ //let val1 ;
  //val1 = 10??15;
  //val1 = null ?? 15;
  //val1 = undefined?? 10;
 
- console.log( val1);
+ //console.log( val1);
+
+
+ // Terniary oparator
+ // condition ? True: false
+
+ const hotCoffePrice = 50;
+ hotCoffePrice > 80 ? console.log(" Value is too mach"): console.log(" value for money");
