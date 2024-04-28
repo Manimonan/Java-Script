@@ -34,5 +34,27 @@ const user ={
 //syntax _____. () => {}
 
 const Arrow =  ()=> {
-    console.log( 'This is a arrow Function');
+    //console.log( 'This is a arrow Function');
 }
+
+
+// const addTow = (num1,num2)=>{
+//       return num1 + num2
+    
+// }
+// //console.log( addTow( 10,12));
+
+
+
+// Implicit return // only forsingle line decleration
+
+const addTow = (num1,num2)=> num1 + num2
+ // console.log( addTow( 10,12));
+
+  // Imidetly Invoked Function Expression ( IIFE)
+  // use to relife from global pollution
+  // syntax ____. ( function ) ()
+
+  (function iife() {
+     console.log( 'DB CONNECTED');
+  }) ( );
